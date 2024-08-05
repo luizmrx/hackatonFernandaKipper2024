@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F9F6EC;
+    height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2%;
+    border-bottom: 2px solid #88A1A8;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+}
+
+.capa{
+    background-image: url('/assets_hackaton_Fernanda_Kipper_2024/image_principal.png');
+    background-repeat: no-repeat;
+    height: 60%;
+    background-size: contain;
+    background-position: center;
+    padding: 0 2% 2% 2%;
+    margin: 0% 2% 2% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.capa__mensagem__titulo{
+    background-color: #F9F6EC;
+    width: 40%;
+    height: 15%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.areas{
+    display: flex;
+    margin: 2%;
+    border-top: 2px solid #88A1A8;
+    border-bottom: 2px solid #88A1A8;
+    justify-content: space-between;
+}
+
+.areas__risco{
+    width: 25%;
+    padding: 2%;
+}
+
+.areas__risco__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areas__risco__ajudar{
+    margin: 3%;
+    padding: 4% 12%;
+    border: 2px solid #88A1A8;
+    border-radius: 10px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-between;
+    padding: 15%;
+}
+
+.abrigos{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 2%;
+    border-bottom: 2px solid #88A1A8;
+    border-top: 2px solid #88A1A8;
+}
+
+.abrigos__apresentacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15%;
+}
+
+.abrigos__apresentacao__paragrafo{
+    width: 30%;
+}
+
+.abrigos__apresentacao__imagem{
+    width: 40%;;
+}
+
+.abrigos__apresentacao__links{
+    padding: 2% 5%;
+    border: 2px solid #88A1A8;
+    border-radius: 10px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 40%;
+}
