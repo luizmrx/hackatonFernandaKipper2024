@@ -108,3 +108,14 @@ body{
     justify-content: space-between;
     padding: 3% 40%;
 }
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.historia__apresentacao{
+    display: flex;
+    align-items: center;
+}
